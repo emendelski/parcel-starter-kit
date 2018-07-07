@@ -16,6 +16,7 @@ yarn lint
 
 # build for production with minification
 yarn build
+```
 
 ## Documentation
 * [ParcelJS](https://parceljs.org/)
