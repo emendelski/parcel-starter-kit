@@ -1,0 +1,32 @@
+@import "~bulma";
+
+.hero {
+  display: flex;
+  height: 100vh;
+
+  .hero-body {
+    display: flex;
+    align-items: center;
+    text-align: center;
+  }
+
+  .title {
+    font-size: 4rem;
+    font-weight: $weight-bold;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    &::before {
+      content: ' ';
+      display: inline-block;
+      vertical-align: middle;
+      width: 1em;
+      height: 1em;
+      background-size: cover;
+      background-image: url("../images/alert-success.svg");
+      background-repeat: no-repeat;
+      margin-right: .25em;
+    }
+  }
+}
