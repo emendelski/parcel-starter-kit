@@ -9,20 +9,20 @@
     "build": "parcel build index.html"
   },
   "devDependencies": {
-    "bulma": "^0.7.1"
+    "bulma": "^0.7.5"
   },
   "dependencies": {
-    "autoprefixer": "^8.6.5",
+    "autoprefixer": "^9.6.1",
     "babel-core": "^6.26.3",
-    "babel-eslint": "^8.2.5",
+    "babel-eslint": "^10.0.2",
     "babel-preset-env": "^1.7.0",
-    "eslint": "4.19.1",
-    "eslint-config-airbnb-base": "^13.0.0",
-    "eslint-plugin-import": "^2.13.0",
-    "node-sass": "^4.9.1",
-    "parcel-bundler": "^1.9.4",
-    "parcel-plugin-eslint": "^1.0.4",
-    "postcss-modules": "^1.1.0",
+    "eslint": "6.1.0",
+    "eslint-config-airbnb-base": "^14.0.0",
+    "eslint-plugin-import": "^2.18.2",
+    "node-sass": "^4.12.0",
+    "parcel-bundler": "^1.12.3",
+    "parcel-plugin-eslint": "^1.0.7",
+    "postcss-modules": "^1.4.1",
     "posthtml-include": "^1.2.0",
     "posthtml-loader": "^1.0.1"
   }
