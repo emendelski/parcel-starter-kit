@@ -6,16 +6,16 @@
 
 ``` bash
 # install dependencies
-yarn install
+npm install
 
 # serve with hot reload at localhost:1234
-yarn serve
+npm run serve
 
 # lint code
-yarn lint
+npm run lint
 
 # build for production with minification
-yarn build
+npm run build
 ```
 
 ## Documentation
