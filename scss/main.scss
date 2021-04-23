@@ -1,8 +1,10 @@
-@import "~bulma";
+@import "bulma";
 
 .hero {
+  background-image: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%) !important;
   display: flex;
   height: 100vh;
+  max-height: 100%;
 
   .hero-body {
     display: flex;
@@ -16,6 +18,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    mix-blend-mode: darken;
 
     &::before {
       content: ' ';
@@ -29,4 +32,12 @@
       margin-right: .25em;
     }
   }
+}
+
+// Autoprefixer test.
+.example {
+  display: grid;
+  transition: all .5s;
+  user-select: none;
+  background: linear-gradient(to bottom, white, black);
 }

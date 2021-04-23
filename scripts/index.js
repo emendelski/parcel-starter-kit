@@ -1,3 +1,6 @@
 import '../scss/main.scss';
 
-console.log('hello world'); // eslint-disable-line no-console
+const hello = (msg) => console.log("hello", msg);
+
+hello('world');
+hello('again');
