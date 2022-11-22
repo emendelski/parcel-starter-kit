@@ -24,7 +24,7 @@
     "eslint-config-airbnb-base": "^14.2.1",
     "eslint-plugin-import": "^2.22.1",
     "parcel": "next",
-    "postcss": "^8.2.12",
+    "postcss": "^8.2.13",
     "postcss-loader": "^5.2.0",
     "postcss-modules": "^4.0.0",
     "posthtml-include": "^1.7.0",
