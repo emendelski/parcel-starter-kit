@@ -1,15 +1,22 @@
 {
-  "name": "landing-page",
-  "version": "1.0.0",
+  "name": "parcel-starter-kit",
+  "version": "2.0.0",
+  "description": "Simple boilerplate: Parcel, Bulma, PostHTML, SCSS, ESLint, Stylelint and Prettier",
   "license": "MIT",
+  "private": true,
+  "type": "module",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/emendelski/parcel-starter-kit.git"
   },
+  "source": "index.html",
+  "engines": {
+    "node": "^22.22.2 || ^24.15.0 || >=26"
+  },
   "scripts": {
-    "serve": "parcel index.html",
-    "lint": "eslint scripts/*",
-    "build": "parcel build index.html"
+    "dev": "parcel",
+    "serve": "npm run dev",
+    "build": "parcel build"
   },
   "dependencies": {
     "bulma": "^1.0.4"
