@@ -16,18 +16,24 @@
   "scripts": {
     "dev": "parcel",
     "serve": "npm run dev",
-    "build": "parcel build"
+    "build": "parcel build",
+    "lint": "npm run lint:js",
+    "lint:js": "eslint .",
+    "format": "prettier --write .",
+    "format:check": "prettier --check ."
   },
   "dependencies": {
     "bulma": "^1.0.4"
   },
   "devDependencies": {
+    "@eslint/js": "^10.0.1",
     "@parcel/transformer-sass": "^2.16.4",
-    "eslint": "8.28.0",
-    "eslint-config-airbnb-base": "^15.0.0",
-    "eslint-plugin-import": "^2.26.0",
+    "eslint": "^10.15.0",
+    "eslint-config-prettier": "^10.1.8",
+    "globals": "^17.14.0",
     "parcel": "^2.16.4",
     "posthtml-include": "^2.0.1",
+    "prettier": "^3.10.1",
     "sass": "^1.108.2"
   }
 }
