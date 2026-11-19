@@ -17,10 +17,11 @@
     "dev": "parcel",
     "serve": "npm run dev",
     "build": "parcel build",
-    "lint": "npm run lint:js",
+    "lint": "npm run lint:js && npm run lint:css",
     "lint:js": "eslint .",
     "format": "prettier --write .",
-    "format:check": "prettier --check ."
+    "format:check": "prettier --check .",
+    "lint:css": "stylelint \"scss/**/*.scss\""
   },
   "dependencies": {
     "bulma": "^1.0.4"
@@ -34,6 +35,8 @@
     "parcel": "^2.16.4",
     "posthtml-include": "^2.0.1",
     "prettier": "^3.10.1",
-    "sass": "^1.108.2"
+    "sass": "^1.108.2",
+    "stylelint": "^18.0.0",
+    "stylelint-config-standard-scss": "^18.0.0"
   }
 }
