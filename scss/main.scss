@@ -39,7 +39,7 @@
   }
 }
 
-// Autoprefixer test.
+// Vendor prefixing test (handled by Parcel via Lightning CSS + browserslist).
 .example {
   display: grid;
   transition: all 0.5s;
