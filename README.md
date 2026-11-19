@@ -4,7 +4,7 @@
 
 ## Build Setup
 
-``` bash
+```bash
 # install dependencies
 npm install
 
@@ -19,7 +19,8 @@ npm run build
 ```
 
 ## Documentation
-* [Bulma](https://bulma.io/)
-* [ParcelJS](https://parceljs.org/)
-* [Eslint - Airbnb](https://github.com/airbnb/javascript)
-* [PostHTML-include](https://github.com/posthtml/posthtml-include)
+
+- [Bulma](https://bulma.io/)
+- [ParcelJS](https://parceljs.org/)
+- [Eslint - Airbnb](https://github.com/airbnb/javascript)
+- [PostHTML-include](https://github.com/posthtml/posthtml-include)
