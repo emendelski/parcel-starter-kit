@@ -12,23 +12,15 @@
     "build": "parcel build index.html"
   },
   "dependencies": {
-    "@parcel/transformer-sass": "^2.8.0",
     "bulma": "^0.9.4"
   },
   "devDependencies": {
-    "@babel/core": "^7.20.2",
-    "@babel/eslint-parser": "^7.19.1",
-    "@babel/preset-env": "^7.20.2",
-    "autoprefixer": "^10.4.13",
+    "@parcel/transformer-sass": "^2.16.4",
     "eslint": "8.28.0",
     "eslint-config-airbnb-base": "^15.0.0",
     "eslint-plugin-import": "^2.26.0",
-    "parcel": "^2.0.0-rc.0",
-    "postcss": "^8.4.19",
-    "postcss-loader": "^7.0.1",
-    "postcss-modules": "^6.0.0",
-    "posthtml-include": "^1.7.4",
-    "posthtml-loader": "^2.0.1",
-    "sass": "^1.56.1"
+    "parcel": "^2.16.4",
+    "posthtml-include": "^2.0.1",
+    "sass": "^1.108.2"
   }
 }
